@@ -11,8 +11,8 @@ def main
 
   loop do
     msg = []
-    msg.push "🔫 #{game.stage}"
-    msg.push "❓❓❓❓"
+    msg.push "Stage #{game.stage}"
+    msg.push "❓❓❓❓🔫"
     # msg.push game.correct_answer.join("") # cheat..
     msg.push "Please enter 4-digit number."
     msg.push game.history.join("\n") if game.history.length > 0 
@@ -21,7 +21,7 @@ def main
 
     if input.nil?
       puts <<EOF
-You lose..
+You lose.. 😩😩😩
 #{game.correct_answer.join("")}
 #{game.history.join("\n")}
 EOF
@@ -32,7 +32,7 @@ EOF
     
     if hit == 4
       puts <<EOF
-You win!
+You win!! 😄😄😄💃
 #{game.correct_answer.join("")}
 #{game.history.join("\n")}
 EOF
