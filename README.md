@@ -1,6 +1,8 @@
 # Hit & Blow
 Hit and Blow Game
 
+![Screen Shot](./hit_and_blow_01.png)
+
 ## Rule
 - It is a game to hit a 4-digit number
 - You answer 4 digit numbers
